@@ -2,3 +2,86 @@ body{
     background-color: darkslategray;
     color: palegoldenrod;
 }
+
+.Header{
+    margin: auto;
+    background-color: lightblue;
+    width: 100rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.Logo{
+    margin: auto;
+    width: 40rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*justify-content: center;*/
+    float: Left;
+}
+
+.Buttons{
+    border-radius: 20px;
+    width: 17rem;
+    height: 3rem;
+    font-family: 'Arial Narrow';
+    font-size: large;
+}
+
+.Main{
+    margin: auto;
+    width: 100rem;
+    height: 80rem;
+}
+
+.Botonera{
+    border: .5rem palegoldenrod solid;
+    width: 19rem;
+    height: 79rem;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    float: Left;
+    border-radius: 20px 0px 0px 30px;
+}
+
+.section1{
+    border: .5rem palegoldenrod solid;
+    width: 59rem;
+    height: 79rem;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    float: left;
+}
+
+.aside{
+    border: .5rem palegoldenrod solid;
+    width: 19rem;
+    height: 79rem;
+    background-color: lightsalmon;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    border-radius: 0px 20px 30px 0px;
+    visibility: hidden;
+}
+
+.Footer{
+    margin: auto;
+    background-color: lightblue;
+    width: 100rem;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+.iframe{
+    border: none;
+}
