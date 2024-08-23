@@ -1,0 +1,70 @@
+.Bienvenida{
+    background-color: lightcoral;
+    width: 850px;
+
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-style: italic;
+
+    border-radius: 10px;
+}
+
+.Titulo{
+    width: 850px;
+    height:  100px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: center;
+    justify-content: center;
+}
+
+.Contenido{
+    width: 850px;
+}
+
+.Imagen{
+    width: 850px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: center;
+    justify-content: center;
+}
+
+.Informacion{
+    width: 700px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: left;
+
+    font-size: large;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-style: italic;
+}
+
+.Comprar{
+    width: 150px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    float: right;
+}
+
+.cuadrito{
+    background-color:lightgrey;
+    height: 430px;
+    width: 850px;;
+
+    border-radius: 20px;
+}
+
+.espacio{
+    background-color:whitesmoke;
+    width: 850px;
+    height: 10px;
+}
