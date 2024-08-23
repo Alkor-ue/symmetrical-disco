@@ -1,6 +1,70 @@
 <!DOCTYPE html>
-<h1>Emil es un gato cabrón</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
+    <p></p>
+
+    <div class="Main">
+
+        <aside class="Botonera">
+            <div>
+                <div >
+                    <img src="Resources\logo.png" height="150" width="208"  >
+                </div>
+
+                <p><button class="Buttons" id="btnEnsaladas"> Ensaladas </button></p>
+                <p><button class="Buttons" id="btnPastas"> Pastas </button></p>
+                <p><button class="Buttons" id="btnAperitivos"> Aperitivos </button></p>
+                <p><button class="Buttons" id="btnPostres"> Postres </button></p>
+                <p><button class="Buttons" id="btnBebidas"> Bebidas </button></p>
+                <br>
+                <p><button class="Buttons" id="btnCarrito" style="background-color: palegoldenrod"> Carrito </button></p>
+                <p><button class="Buttons" id="btnOpciones" style="background-color: lightslategrey"> Opciones </button></p>
+            </div>
+        </aside>
+        
+        <section class="section1">
+            <iframe width="900" height="1150" src="mainpage.php" id="iframe" class="iframe"></iframe><br>
+        </section>
+
+        <aside class="aside" id="aside"> 
+            <div>
+                <script>
+                    var total=0;
+                </script>
+
+                <div>
+                    <button class="Buttons" id="btnActualizar">Actualizar</button>
+                </div>
+                
+                <div width="18rem" id="datos">
+                    
+                </div>
+
+                <br>
+
+                <div>
+                    <button class="Buttons" id="btnComprar">Comprar</button>
+                </div>
+            </div>
+            
+        </aside>
+    </div>
+
+    <p></p>
+
+    <div class="Footer">
+    
+    </div>
+    <script src="main.js"></script>
+
     
 </body>
+</html>
